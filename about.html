@@ -7,42 +7,53 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>About Me</title>
 
 </head>
 <body>
 	<div class="container-utama">
 		<!-- Navbar Start -->
-		<div class="container-navbar">
-			<ul class="ul-navbar">
-				<li class="li-navbar">
-					<a href="index.html">Home</a>
-				</li>
-				<li class="li-navbar">
-					<a href="#">About Me</a>
-				</li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+			<div class="container-fluid">
+				<ul class="navbar-nav">
+					<li class="navbar-item">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="navbar-item">
+						<a href="#">About Me</a>
+					</li>	
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" placeholder="Cari Disini ...">
+				</form>
+			</div>
+		</nav>
 		<!-- Navbar End -->
 
 		<!-- Content Start -->
 		<div class="container-content">
-			<img class="img-content" src="img/5150756.jpg" width="200px" height="200px">
-			<h3>
-				Hai
-			</h3>
+			<div class="card bg-light" style="width: 200px;">
+				<img class="card-img-top" src="img/203518.jpg" alt="Anime">
+				<div class="card-body">
+					<h3 class="card-tittle">
+						Gatau
+					</h3>
+					<p class="card-text">
+						lorem Ipsum 
+					</p>
+					<a href="index.html" class="btn btn-primary">Click Here !</a>
+				</div>
+			</div>
 		</div>
 		<!-- Content End -->
 
 		<!-- Footer Start -->
-		<div class="container-footer">
-			<footer class="footer-content">
-				<h1 class="footer-h1">
-					Day 1, Kamis, 8 September 2022
-				</h1>
-			</footer>
-		</div>
+		<footer class="mt-auto bg-dark">
+			Day 2, Jumat, 9 September 2022
+		</footer>
 		<!-- Footer End -->
+		<script src="js/bootstrap.js"></script>
 	</div>
 </body>
 </html>

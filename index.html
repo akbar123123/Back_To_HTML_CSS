@@ -7,42 +7,60 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>Home</title>
 
 </head>
 <body>
 	<div class="container-utama">
 		<!-- Navbar Start -->
-		<div class="container-navbar">
-			<ul class="ul-navbar">
-				<li class="li-navbar">
-					<a href="#">Home</a>
-				</li>
-				<li class="li-navbar">
-					<a href="about.html">About Me</a>
-				</li>
-			</ul>
-		</div>
+		<nav class="navbar navbar-expand-sm bg-dark justify-content-center mt-auto">
+			<div class="container-fluid">
+				<ul class="navbar-nav">
+					<li class="navbar-item">
+						<a href="#">Home</a>
+					</li>
+					<li class="navbar-item">
+						<a href="about.html">About Me</a>
+					</li>	
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" placeholder="Cari Disini ...">
+				</form>
+			</div>
+		</nav>
 		<!-- Navbar End -->
 
 		<!-- Content Start -->
 		<div class="container-content">
-			<img class="img-content" src="img/203518.jpg" width="50%" height="50%">
-			<h3>
-				Web Ini Dibuat Untuk Mengingatkan Saya Kembali Dengan HTML Dan CSS.
-			</h3>
+			<h1>
+				
+			</h1>
+			<div class="card bg-light" style="width: 200px;">
+				<img class="card-img-top" src="img/5150756.jpg" alt="Anime">
+				<div class="card-body">
+					<h3 class="card-tittle">
+						WIBU
+					</h3>
+					<p class="card-text">
+						
+					</p>
+					<a href="#click" data-bs-toggle="collapse"  class="btn btn-primary">Click Here !</a>
+					<div id="click" class="collapse">
+						Hello Sir, Watashi Namae wa Akbar Desu.
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Content End -->
 
 		<!-- Footer Start -->
-		<div class="container-footer">
-			<footer class="footer-content">
-				<h1 class="footer-h1">
-					Day 1, Kamis, 8 September 2022
-				</h1>
-			</footer>
-		</div>
+				<footer class="mt-auto bg-dark">
+					Day 2, Jumat, 9 September 2022
+				</footer>
 		<!-- Footer End -->
+		</div>
+		<script src="js/bootstrap.js"></script>
 	</div>
 </body>
 </html>
